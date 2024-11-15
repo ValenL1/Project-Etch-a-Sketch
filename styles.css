@@ -1,0 +1,41 @@
+body {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#squareline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: rgb(102, 102, 102);
+}
+
+#btncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#btn {
+    width: 30px;
+    height: 30px;
+}
